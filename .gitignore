@@ -1,0 +1,16 @@
+# .gitignore - files and folders Git should NOT track or upload
+
+# The virtual environment: it's huge, and anyone can recreate it
+# with "pip install". It also contains files specific to your laptop.
+.venv/
+
+# Python's auto-generated cache files
+__pycache__/
+*.pyc
+
+# Environment files often hold passwords or secret keys.
+# Ignoring them now means a secret can never be uploaded by accident.
+.env
+
+# VS Code's personal settings for your machine
+.vscode/
